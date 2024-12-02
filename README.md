@@ -1,1 +1,11 @@
-# Prediccion_Rotacion_Clientes_Gimnasio
+## Descripción del Proyecto:
+
+En este proyecto, analizamos datos de clientes de la cadena de gimnasios Model Fitness con el objetivo de desarrollar una estrategia de interacción y retención basada en análisis de datos. Uno de los principales desafíos que enfrentan los gimnasios es la pérdida de clientes. Este análisis permite identificar patrones de comportamiento y predecir la probabilidad de cancelación, así como diseñar acciones específicas para mejorar la lealtad de los usuarios.
+
+Primero, realizamos un análisis exploratorio de datos (EDA) para comprender las características de los usuarios que permanecen en comparación con los que abandonan el servicio. Observamos factores como frecuencia de visitas, duración del contrato, gasto en servicios adicionales y características demográficas. También examinamos correlaciones entre estas variables y la probabilidad de cancelación.
+
+Luego, construimos modelos de clasificación binaria utilizando algoritmos como la regresión logística y el bosque aleatorio para predecir qué clientes podrían cancelar su membresía en el próximo mes. Estos modelos se evaluaron en términos de precisión, recall y exactitud para determinar cuál ofrecía un mejor desempeño.
+
+Adicionalmente, implementamos técnicas de clustering para identificar grupos de clientes con características similares. Esto incluyó estandarización de datos, creación de un dendrograma para estimar el número óptimo de clústeres y el uso del algoritmo K-means para dividir a los clientes en grupos. Analizamos los clústeres resultantes para identificar aquellos con mayor probabilidad de abandono y aquellos más leales.
+
+Finalmente, el proyecto culmina con recomendaciones estratégicas, como personalizar las campañas de marketing según el perfil del cliente, implementar medidas preventivas para los grupos más propensos a cancelar y reforzar las estrategias de fidelización mediante incentivos específicos, como descuentos por renovaciones anticipadas o beneficios adicionales para usuarios frecuentes.
